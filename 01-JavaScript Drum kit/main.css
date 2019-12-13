@@ -1,4 +1,58 @@
-html {
+html{
+  background-image: url('https://www.youredm.com/wp-content/uploads/2015/11/dash-berlin-greeted-by-people-hd-wallpaper-picture-ultra-music-fest-2013-wmc-miami3.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading{
+  color: #fff;
+  display: inline-flexbox;
+  text-align: center;
+  padding: 1rem .5rem;
+  text-shadow: 0 0 .5rem black;
+  
+}
+
+.instrument{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+/* html {
     font-size: 10px;
     background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
     background-size: cover;
@@ -48,4 +102,4 @@ html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
-  }
+  } */
